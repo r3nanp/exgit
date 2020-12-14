@@ -7,5 +7,5 @@
 - Tesla
 - Jason 
 
-Are u wanna contribute?
+**Are u wanna contribute?**
 <a href="./.github/CONTRIBUTING.md">Check here, step by step</a>
