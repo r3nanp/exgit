@@ -26,12 +26,12 @@ defmodule Exgit.ClientTest do
     end
 
     test "when there is no user with the given name, returns an error" do
-      username = "banana"
+      username = "caju"
 
       expected_response = {:error, "User not found!"}
 
       mock(fn
-        %{method: :get, url: "https://api.github.com/users/banana/repos"} ->
+        %{method: :get, url: "https://api.github.com/users/caju/repos"} ->
           %Tesla.Env{status: 404, body: ""}
       end)
 
